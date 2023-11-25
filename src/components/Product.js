@@ -81,7 +81,7 @@ function Product() {
                         <NavLink className="text-decoration-none text-dark" to={`/`}>
                             <div className="d-flex align-items-center m-3">
                                 <i className="fa fa-long-arrow-left"></i>
-                                <span className="ml-1">&nbsp;Back</span>
+                                <span className="ml-1">&nbsp;Voltar</span>
                             </div>
                         </NavLink>
                         <div>
@@ -111,7 +111,7 @@ function Product() {
                                             </div>
                                         </div>
                                         <p className="text-muted">{product.description}</p>
-                                        <div className="cart mt-4 align-items-center"> <button className="btn btn-outline-dark text-uppercase mr-2 px-4">Buy</button> </div>
+                                        <div className="cart mt-4 align-items-center"> <button className="btn btn-outline-dark text-uppercase mr-2 px-4">Comprar</button> </div>
                                     </div>
                                 </div>
                             </div>
